@@ -1,0 +1,27 @@
+body{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  width: 100vw;
+  overflow: hidden;
+  background-color:var(--background);
+  color: var(--clr-primary);
+}
+
+
+:root{
+    --clr-light:rgb(176, 0, 0);
+    --clr-dark:rgb(0, 0, 0);
+    --clr-primary:green;
+    --clr-secondary:purple;
+     --background: var(--clr-light);
+
+}
+
+.darkmode{
+    --clr-primary:rgb(128, 0, 0);
+    --clr-light:rgb(255, 255, 255);
+    --background:rgb(0, 0, 0);
+     
+}
