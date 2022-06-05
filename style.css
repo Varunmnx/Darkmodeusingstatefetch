@@ -11,6 +11,7 @@ body{
 
 #dark-mode-toggle{
   background: var(--clr-primary);
+  color:var(--clr-light);
 }
 
 :root{
@@ -24,7 +25,7 @@ body{
 
 .darkmode{
     --clr-primary:rgb(240, 240, 240);
-    --clr-light:rgb(246, 234, 234);
+    --clr-light:rgb(0, 0, 0);
     --background:rgb(0, 0, 0);
-     
+      
 }
