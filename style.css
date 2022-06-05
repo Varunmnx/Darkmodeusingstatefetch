@@ -9,19 +9,22 @@ body{
   color: var(--clr-primary);
 }
 
+#dark-mode-toggle{
+  background: var(--clr-primary);
+}
 
 :root{
-    --clr-light:rgb(176, 0, 0);
+    --clr-light:rgb(222, 222, 222);
     --clr-dark:rgb(0, 0, 0);
-    --clr-primary:green;
+    --clr-primary:rgb(21, 24, 21);
     --clr-secondary:purple;
-     --background: var(--clr-light);
+    --background: var(--clr-light);
 
 }
 
 .darkmode{
-    --clr-primary:rgb(128, 0, 0);
-    --clr-light:rgb(255, 255, 255);
+    --clr-primary:rgb(240, 240, 240);
+    --clr-light:rgb(246, 234, 234);
     --background:rgb(0, 0, 0);
      
 }

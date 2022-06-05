@@ -1,4 +1,3 @@
-// console.log("hello")
 let darkmode = localStorage.getItem('darkmode'); //gets class from css
 //5mb is used
 const darkmodetoggel = document.querySelector('#dark-mode-toggle');
